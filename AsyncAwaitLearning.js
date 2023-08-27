@@ -55,6 +55,13 @@ em seguida, imprime o valor resolvido no console.
 Você também pode usar try...catch com funções async/await para lidar com erros de forma mais elegante
 e legível do que com .then() e .catch().
 
+ O bloco try é utilizado para monitorar um conjunto de instruções, 
+onde se espera que ocorram erros, enquanto o bloco catch é empregado para capturar 
+e gerenciar esses erros, caso eles ocorram.
+
+ Se ocorrer uma exceção dentro do bloco try, a execução do código dentro do try é interrompida imediatamente, 
+e o controle passa para o bloco catch.
+
 Exemplo:
 
 async function manipularErro() {
