@@ -1,13 +1,22 @@
 /*ASYNC / AWAIT */
 
 /*
+ O async/await ajuda a controlar o fluxo do código assíncrono de uma forma que parece síncrona
+
+ Com o async/await, você pode pausar a execução de um bloco de código enquanto espera que uma operação assíncrona seja concluída,
+sem interromper o restante do programa. 
+
+ Isso torna o código mais legível e mais fácil de manter, 
+pois você pode expressar a lógica em uma ordem sequencial, mesmo que as operações sejam assíncronas.
+
+ 
   O async/await é uma abordagem mais moderna e legível para lidar com operações assíncronas. 
- Ele foi introduzido no ECMAScript 2017 (ES8) e é construído em cima das Promises, 
- mantendo o código mais estruturado e parecido com código síncrono.
+Ele foi introduzido no ECMAScript 2017 (ES8) e é construído em cima das Promises, 
+mantendo o código mais estruturado e parecido com código síncrono.
 
  async/await é especialmente útil quando você tem várias operações assíncronas a serem realizadas em sequência, 
- pois torna o código mais parecido com o estilo de programação síncrona, o que pode facilitar a leitura e a manutenção do código. 
- Isso é especialmente benéfico em situações em que você precisa esperar a conclusão de uma operação antes de prosseguir para a próxima.
+pois torna o código mais parecido com o estilo de programação síncrona, o que pode facilitar a leitura e a manutenção do código. 
+Isso é especialmente benéfico em situações em que você precisa esperar a conclusão de uma operação antes de prosseguir para a próxima.
 */
 
 /*
